@@ -56,7 +56,7 @@ const App = () => {
           setApi={setApi}
         />
       </View>
-      <View style={{marginTop: 20}}>{Component}</View>
+      <View style={{marginTop: 20, flex: 1}}>{Component}</View>
     </ScrollView>
   );
 };
@@ -66,9 +66,10 @@ const styles = StyleSheet.create({
     marginHorizontal: '2.5%',
   },
   image: {
-    width: '100%',
-    height: 150,
-    marginHorizontal: '2.5%',
+    height: 100,
+    width: '80%',
+    alignSelf: 'center',
+    resizeMode: 'contain',
   },
 });
 

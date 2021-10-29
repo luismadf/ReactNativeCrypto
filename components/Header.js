@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     textTransform: 'uppercase',
     fontSize: 20,
     color: '#fff',
-    marginBottom: 30,
+    marginBottom: 15,
   },
 });
 

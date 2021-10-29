@@ -79,7 +79,8 @@ const styles = StyleSheet.create({
     fontFamily: 'Lato-Black',
     textTransform: 'uppercase',
     fontSize: 22,
-    marginVertical: 20,
+    marginTop: 10,
+    marginBottom: 20,
   },
   btnCotizar: {
     backgroundColor: '#5e49e2',
